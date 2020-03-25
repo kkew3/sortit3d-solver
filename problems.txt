@@ -1,0 +1,58 @@
+# Level 2
+4 [YBRY
+4 [YBRR
+4 [
+4 [
+4 [BRYB
+
+---
+
+# Level 3
+4 [
+4 [
+4 [YYGY
+4 [PGPP
+4 [YPGG
+
+---
+
+# Level 4
+4 [RYRG
+4 [YBRG
+4 [YGBG
+4 [
+4 [
+4 [BYRB
+
+---
+
+# Level 7
+4 [YPPO
+4 [BOBO
+4 [POYB
+4 [PYBY
+4 [
+
+---
+
+# Level 16
+4 [PYOR
+4 [YBGO
+4 [RBPR
+4 [RGOG
+4 [YGOB
+4 [
+4 [
+4 [BPYP
+
+---
+
+# Level 24
+4 [
+4 [YDDB
+4 [YGBO
+4 [DOBO
+4 [DYPP
+4 [PBRG
+4 [PROY
+4 [GGRR
