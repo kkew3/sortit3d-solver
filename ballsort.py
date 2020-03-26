@@ -106,18 +106,21 @@ def search_path(state):
     """
     path = {}
     open_queue = [state]
+    open_set = set([state])
     closed_set = set()
     while open_queue:
         open_queue.sort(key=heuristics)
         bot = open_queue.pop(0)
+        open_set.remove(bot)
         if bot:
             break
         if bot not in closed_set:
             closed_set.add(bot)
             for diff, nbr in bot.neighbors():
-                if nbr not in closed_set and nbr not in open_queue:
+                if nbr not in closed_set and nbr not in open_set:
                     path[nbr] = bot, diff
                     open_queue.append(nbr)
+                    open_set.add(nbr)
     if bot:
         rev_route = []
         p = bot
